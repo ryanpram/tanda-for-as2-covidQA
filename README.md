@@ -3,7 +3,7 @@
 The pre-trained Ansq-RoBERTa Large model (transfer model)  provided by [wqa_tanda repo](https://github.com/alexa/wqa_tanda).  The transformers directory and run_glue.py are adaptation and modification from [wqa_tanda repo](https://github.com/alexa/wqa_tanda), the rest is author's code.
 
 ## Description
-This work is for advanced machine learnine Course's assignment. You can read all detail work's description (in bahasa) at [technical-report](https://github.com/ryanpram/tanda-for-as2-covidQA/tree/main/technical-report)
+This work is for advanced machine learnine course's final assignment. You can read all detail work's description (in bahasa) at [technical-report](https://github.com/ryanpram/tanda-for-as2-covidQA/tree/main/technical-report)
 
 
 
