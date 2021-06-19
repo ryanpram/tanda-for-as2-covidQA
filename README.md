@@ -58,7 +58,8 @@ Note: --do_test is argument for using test data in evaluation process.
 
 ### Alternatif reproduce way
 
-In this repo also provided sample notebook ([RoBERTa-Large ASNQ](https://wqa-public.s3.amazonaws.com/tanda-aaai-2020/models/tanda_roberta_large_asnq.tar)) to run the program. You can change the parameters as you wish
+In this repo also provided sample notebook ([Example Notebook](https://github.com/ryanpram/tanda-for-as2-covidQA/blob/main/example-notebook/TandA_CovidQA_Repro_Example.ipynb)) to run the program. You can change the parameters as you wish
+
 
 ## Help
 
