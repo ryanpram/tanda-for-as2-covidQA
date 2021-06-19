@@ -1,6 +1,6 @@
 # TandA for answer sentence selection on covidQA
 
-The pre-trained Ansq-RoBERTa Large model (transfer model)  provided by [wqa_tanda repo](https://github.com/alexa/wqa_tanda).  The transformers directory are adaptation and modification from [wqa_tanda repo](https://github.com/alexa/wqa_tanda), the rest is author's code.
+The pre-trained Ansq-RoBERTa Large model (transfer model)  provided by [wqa_tanda repo](https://github.com/alexa/wqa_tanda).  The transformers directory and run_glue.py are adaptation and modification from [wqa_tanda repo](https://github.com/alexa/wqa_tanda), the rest is author's code.
 
 ## Description
 This work is for advanced machine learnine Course's assignment. You can read all detail work's description (in bahasa) at [technical-report](https://github.com/ryanpram/tanda-for-as2-covidQA/tree/main/technical-report)
@@ -62,5 +62,5 @@ In this repo also provided sample notebook () to run the program. You can change
 
 ## Help
 
-You can submit a GitHub issue for asking a question or help. Or you can contact me at ryan.pramana@ui.ac.id as well
+You can submit a GitHub issue for asking a question or help. Or you can contact me directly at ryan.pramana@ui.ac.id as well
 
