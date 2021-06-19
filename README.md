@@ -7,9 +7,11 @@ This work is for advanced machine learnine Course's assignment
 The pre-trained Ansq-RoBERTa Large model (transfer model)  provided by [wqa_tanda repo](https://github.com/alexa/wqa_tanda).  The transformers directory are adaptation and modification from [wqa_tanda repo](https://github.com/alexa/wqa_tanda), the rest is author's code.
 
 ### Requirement
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Python 3.7
+* datasets 1.8.0
+* boto3 1.17.97
+* sacremoses 0.0.45
+* sentencepiece-0.1.95 • nltk 3.2.5
 
 ### Installing
 
