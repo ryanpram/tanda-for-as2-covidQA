@@ -62,5 +62,5 @@ In this repo also provided sample notebook () to run the program. You can change
 
 ## Help
 
-You can submit a GitHub issue for asking a question or help. Or you can contact me at ryan.pramana@ui.ac.id as well
+You can submit a GitHub issue for asking a question or help. Or you can contact me directly at ryan.pramana@ui.ac.id as well
 
