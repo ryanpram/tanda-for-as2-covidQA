@@ -11,52 +11,55 @@ The pre-trained Ansq-RoBERTa Large model (transfer model)  provided by [wqa_tand
 * datasets 1.8.0
 * boto3 1.17.97
 * sacremoses 0.0.45
-* sentencepiece-0.1.95 • nltk 3.2.5
+* sentencepiece-0.1.95 
+* nltk 3.2.5
 
-### Installing
+### Reproduce Step
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to reproduce result
-* Step-by-step bullets
+* Clone This Repo
+* Download ASNQ Transfer's Model From [RoBERTa-Large ASNQ](https://wqa-public.s3.amazonaws.com/tanda-aaai-2020/models/tanda_roberta_large_asnq.tar)
+* Training Adapt 
 ```
-code blocks for commands
+!python3 run_glue.py \
+    --model_type roberta \
+    --model_name_or_path  [model-name-or-path] \
+    --task_name ASNQ \
+    --do_train \
+    --do_eval \
+    --evaluate_during_training \
+    --do_lower_case \
+    --data_dir [dataset_dir] \
+    --per_gpu_train_batch_size 15 \
+    --learning_rate 2e-5 \
+    --num_train_epochs 3.0 \
+    --output_dir [ouput_dir] \
+    --tensorboard_log_dir_loc=[tensor_dir] \
 ```
+* Eval Model's Performance
+```
+!python3 run_glue.py \
+    --model_type roberta \
+    --model_name_or_path  [model-name-or-path] \
+    --task_name ASNQ \
+    --do_test \
+    --do_eval \
+    --evaluate_during_training \
+    --do_lower_case \
+    --data_dir [dataset_dir] \
+    --per_gpu_train_batch_size 15 \
+    --learning_rate 2e-5 \
+    --num_train_epochs 3.0 \
+    --output_dir [ouput_dir] \
+    --tensorboard_log_dir_loc=[tensor_dir] \
+```
+
+Note: --do_test is argument for using test data in evaluation process.
+
+### Alternatif reproduce way
+
+In this repo also provided sample notebook () to run the program. You can change the parameters as you wish
 
 ## Help
 
+You can submit a GitHub issue for asking a question or help. Or you can contact me at ryan.pramana@ui.ac.id as well
 Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
