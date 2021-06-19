@@ -1,15 +1,12 @@
-# tanda-for-as2-covidQA
+# TandA for answer sentence selection on covidQA
 
-
-Simple overview of use/purpose.
+This work is for advanced machine learnine Course's assignment  
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The pre-trained Ansq-RoBERTa Large model (transfer model)  provided by [wqa_tanda repo](https://github.com/alexa/wqa_tanda).  The transformers directory are adaptation and modification from [wqa_tanda repo](https://github.com/alexa/wqa_tanda), the rest is author's code.
 
-## Getting Started
-
-### Dependencies
+### Requirement
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
@@ -21,7 +18,7 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
+* How to reproduce result
 * Step-by-step bullets
 ```
 code blocks for commands
